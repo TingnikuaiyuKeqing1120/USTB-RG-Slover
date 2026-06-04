@@ -14,14 +14,14 @@
 - **强制显示答案** — 查看参考答案，支持一键复制
 - **强制提交** — 绕过截止时间限制补交
 - **解除复制限制** — 允许右键和文本选择
-- **人工处理队列** — 左下角浮动面板显示需手动处理的题目
-- 支持选择题、判断题、填空题、编程题
+- **人工处理队列** — 遇到错误或者异常自动捕捉，并在左下角浮动面板显示需手动处理的题目
+- 支持选择题、填空题、编程题
 
 ## 安装
 
-1. 安装 [Tampermonkey](https://www.tampermonkey.net/)
-2. 导入 `USTB-RG-Helper.user.js`
-3. 打开锐格平台即生效
+1. 安装 [Tampermonkey](https://www.tampermonkey.net/)#脚本猫也可以
+2. 下载并导入 `USTB-RG-Helper.user.js`#也可以打开之后直接复制
+3. 打开锐格平台即生效#如果不行，刷新一下页面即可
 
 ## 文件说明
 
@@ -34,3 +34,4 @@
 ## 致谢
 
 - [Harry Huang](https://github.com/isHarryh) — 原版 [USTB-Awesome-JS](https://github.com/isHarryh/USTB-Awesome-JS) 作者，提供了 XHRSpy 劫持、基本 UI、强制提交/显示答案的基础框架
+- Deepseek V4 Pro & Opencode - 帮我完成了新功能的开发
