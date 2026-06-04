@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         USTB RG Helper Enhanced
+// @name         USTB RG Solver
 // @version      1.2
 // @description  北京科技大学锐格实验平台辅助工具 — 一键答题/批量答题/全局答题/强制提交/显示答案/解除复制限制|基于 USTB RG Helper 修改，原作者 Harry Huang,https://github.com/isHarryh/USTB-Awesome-JS
-// @author       TingnikuaiyuKeqing-L & deepseekV4Pro in opencode(I like this whale.)
+// @author       TingnikuaiyuKeqing-L & Deepseek V4 Pro in opencode (I like this whale.)
 // @license      MIT
 // @match        *://ucb.ustb.edu.cn/*
 // @run-at       document-body
@@ -16,9 +16,11 @@
 (function() {
     'use strict';
 
+    const VERSION = '1.2';
+
     // Optimize webpage style
     GM_addStyle(`
-        /* USTH RG Helper */
+        /* USTB RG Solver */
         /* Header */
         .c_pic img {
             width: unset !important;
@@ -890,7 +892,7 @@
                 $('.buttom').empty();
                 $('.buttom').append(`
                 <p class="rg-log">
-                    <span class="bold">已启用 USTB RG Helper Enhanced v1.2</span>
+                    <span class="bold">已启用 USTB RG Solver v${VERSION}</span>
                     <pre id="rgLogContent" class="rg-log-info"></pre>
                 </p>
                 `);
