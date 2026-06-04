@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         USTB RG Solver
 // @version      1.2
-// @description  北京科技大学锐格实验平台辅助工具 — 一键答题/批量答题/全局答题/强制提交/显示答案/解除复制限制|基于 USTB RG Helper 修改，原作者 Harry Huang,https://github.com/isHarryh/USTB-Awesome-JS
+// @description  贝壳锐格答题解决者 — 一键答题/批量答题/全局答题/强制提交/显示答案/解除复制限制|基于 USTB RG Helper 修改，原作者 Harry Huang,https://github.com/isHarryh/USTB-Awesome-JS
 // @author       TingnikuaiyuKeqing-L & Deepseek V4 Pro in opencode (I like this whale.)
 // @license      MIT
 // @match        *://ucb.ustb.edu.cn/*
