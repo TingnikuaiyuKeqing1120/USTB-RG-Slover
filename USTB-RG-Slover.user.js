@@ -9,7 +9,7 @@
 // @grant        unsafeWindow
 // @grant        GM_addStyle
 // @require      https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js
-// @source       
+// @source       https://github.com/TingnikuaiyuKeqing1120/USTB-RG-Slover
 // @namespace    http://ucb.ustb.edu.cn/
 // ==/UserScript==
 
